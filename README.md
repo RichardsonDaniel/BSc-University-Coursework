@@ -5,8 +5,9 @@
 
 
 #  <p align="center">BSc university coursework</p>
-<p align="This is a collection of my coursework projects over my time at university"
-</p>
+<p align="center">"This is a collection of my coursework projects over my time at university"</p>
+
+
 ## Files:
 
 <details><summary>Advanced Games Programming.</summary>
