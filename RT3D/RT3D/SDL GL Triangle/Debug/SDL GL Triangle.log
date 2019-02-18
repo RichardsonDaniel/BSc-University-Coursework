@@ -1,0 +1,32 @@
+﻿Build started 27/04/2015 15:45:59.
+     1>Project "C:\Users\Daniel\CGT\University Final Works\CGT Year 2\Trimester 2\Real-Time 3D\B00239486 - Daniel Richardson - RT3DProject\RT3D\SDL GL Triangle\SDL GL Triangle.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Dev\glm-0.9.3.4" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Camera.cpp Character.cpp Environment.cpp main.cpp md2model.cpp rect.cpp rt3d.cpp rt3dObjLoader.cpp ScreenGame.cpp ScreenManager.cpp SkyBox.cpp
+         SkyBox.cpp
+     1>c:\users\daniel\cgt\university final works\cgt year 2\trimester 2\real-time 3d\b00239486 - daniel richardson - rt3dproject\rt3d\sdl gl triangle\rt3d.h(4): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+         ScreenManager.cpp
+     1>c:\users\daniel\cgt\university final works\cgt year 2\trimester 2\real-time 3d\b00239486 - daniel richardson - rt3dproject\rt3d\sdl gl triangle\screenmanager.h(5): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+         ScreenGame.cpp
+     1>c:\users\daniel\cgt\university final works\cgt year 2\trimester 2\real-time 3d\b00239486 - daniel richardson - rt3dproject\rt3d\sdl gl triangle\screengame.h(8): fatal error C1083: Cannot open include file: 'glm/glm.hpp': No such file or directory
+         rt3dObjLoader.cpp
+     1>c:\users\daniel\cgt\university final works\cgt year 2\trimester 2\real-time 3d\b00239486 - daniel richardson - rt3dproject\rt3d\sdl gl triangle\rt3dobjloader.h(14): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+         rt3d.cpp
+     1>c:\users\daniel\cgt\university final works\cgt year 2\trimester 2\real-time 3d\b00239486 - daniel richardson - rt3dproject\rt3d\sdl gl triangle\rt3d.h(4): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+         rect.cpp
+     1>c:\users\daniel\cgt\university final works\cgt year 2\trimester 2\real-time 3d\b00239486 - daniel richardson - rt3dproject\rt3d\sdl gl triangle\rect.h(5): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+         md2model.cpp
+     1>c:\users\daniel\cgt\university final works\cgt year 2\trimester 2\real-time 3d\b00239486 - daniel richardson - rt3dproject\rt3d\sdl gl triangle\rt3d.h(4): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+         main.cpp
+     1>c:\users\daniel\cgt\university final works\cgt year 2\trimester 2\real-time 3d\b00239486 - daniel richardson - rt3dproject\rt3d\sdl gl triangle\screenmanager.h(5): fatal error C1083: Cannot open include file: 'SDL.h': No such file or directory
+         Environment.cpp
+     1>c:\users\daniel\cgt\university final works\cgt year 2\trimester 2\real-time 3d\b00239486 - daniel richardson - rt3dproject\rt3d\sdl gl triangle\rt3d.h(4): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+         Character.cpp
+     1>c:\users\daniel\cgt\university final works\cgt year 2\trimester 2\real-time 3d\b00239486 - daniel richardson - rt3dproject\rt3d\sdl gl triangle\rt3d.h(4): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+         Camera.cpp
+     1>c:\users\daniel\cgt\university final works\cgt year 2\trimester 2\real-time 3d\b00239486 - daniel richardson - rt3dproject\rt3d\sdl gl triangle\rt3d.h(4): fatal error C1083: Cannot open include file: 'GL/glew.h': No such file or directory
+         Generating Code...
+     1>Done Building Project "C:\Users\Daniel\CGT\University Final Works\CGT Year 2\Trimester 2\Real-Time 3D\B00239486 - Daniel Richardson - RT3DProject\RT3D\SDL GL Triangle\SDL GL Triangle.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.24

@@ -1,0 +1,26 @@
+﻿Build started 26/05/2015 16:36:19.
+     1>Project "C:\Users\DanielRichardson\Desktop\Fantasy rogue game\GED SDL base.vcxproj" on node 2 (Build target(s)).
+     1>Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\DanielRichardson\Desktop\Fantasy rogue game\Debug\GED SDL base.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\dev\SDL2-2.0.3\include" /LIBPATH:"C:\dev\glew-1.11.0\include\GL" /LIBPATH:"C:\dev\SDL2-2.0.3\lib\x86" SDL2.lib SDL2main.lib SDL2_ttf.lib opengl32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\DanielRichardson\Desktop\Fantasy rogue game\Debug\GED SDL base.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\DanielRichardson\Desktop\Fantasy rogue game\Debug\GED SDL base.lib" /MACHINE:X86 Debug\Game.obj
+         Debug\label.obj
+         Debug\main.obj
+         Debug\MonsterBrute.obj
+         Debug\MonsterFodder.obj
+         Debug\MonsterRaider.obj
+         Debug\MonsterSpawn.obj
+         Debug\Player.obj
+         Debug\StateCharSelect.obj
+         Debug\StateCombat.obj
+         Debug\StateCredits.obj
+         Debug\StateGameOver.obj
+         Debug\StateIntro.obj
+         Debug\StateMainMenu.obj
+         Debug\StateMap.obj
+     1>Game.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+     1>MSVCRTD.lib(cinitexe.obj) : warning LNK4098: defaultlib 'msvcrt.lib' conflicts with use of other libs; use /NODEFAULTLIB:library
+         GED SDL base.vcxproj -> C:\Users\DanielRichardson\Desktop\Fantasy rogue game\Debug\GED SDL base.exe
+     1>Done Building Project "C:\Users\DanielRichardson\Desktop\Fantasy rogue game\GED SDL base.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.33

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" href="review.css">
+    <script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+    <script src="search.js"></script>
+</head>
+<body>
+<!-- this form is designed to take in the webmaster details to be checked against-->
+<!-- the database table in the webmaster.php page, allowing access to be gained to view the addReview page-->
+<!-- this action takes place on the clicking of the submit button-->
+<form action="php/webmaster.php" method="get">
+    <b>User Name :</b> <input align="left" type="text" name="uName">
+    </br>
+    <b>Password :</b> <input align="left" type="text" name="password">
+    <input type="submit">
+</form>
+<div id="masterError"></div>
+
+</body>
+</html>

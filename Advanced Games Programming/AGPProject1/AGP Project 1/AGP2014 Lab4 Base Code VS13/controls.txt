@@ -1,0 +1,64 @@
+   
+	| ======================== Controls ======================== |
+	| Camera Control: 					     |
+	|   							     |
+	| 		W - A - S - D (directional) 		     |
+	| 		Q-E (elevation)  			     |
+	| 		comma-period (orientation). 		     |
+	|   							     |
+	| Light 1 Control: 					     |
+	|   							     |
+	| 		I-J-K-L 				     |
+	|   							     |
+	| Light 2 Control: 					     |
+	|      							     |
+	| 		Arrow keys 				     |
+	|      							     |
+	| Light 3 Control: 					     |
+	|      							     |
+	| 		(Static no movement) 			     |
+	|      							     |
+	| Dual light elevation of light 1 and 2: 		     |
+	|      							     |
+	| 		N-M 					     |
+	|      							     |
+	| Atenuation controls: 					     |
+	|      							     |
+	| 		7 (reset all values)			     | 
+	| 		X = 8  					     |
+	| 		Y = 9  					     |
+	| 		Z = 0 					     |
+	|      							     |
+	| Spawn extra lights: 					     |
+	|      							     |
+	| 		First set: 3 				     |
+	| 		Second set: 4 				     |
+	|      							     |
+	| Extra lights controls: 				     |
+	|      							     |
+	| 		T-F-G-H		 			     |
+	|      							     |
+	| Set first three lights to be directional or point lights:  |
+	|      							     |
+	| 		5 (Directional) 			     |
+	| 		6 (point)				     |
+	|      							     |
+	| Change just light one to directional or point:	     |
+	|      							     |
+	| 		Numpad: 1 (Directional) 		     |
+	| 		Numpad: 4 (point)			     |
+	|      							     |
+	| Change just light two to directional or point:	     |
+	|      							     |
+	| 		Numpad: 2 (Directional) 		     |
+	| 		Numpad: 5 (Point)			     |
+	|      							     |
+	| Change just light three to directional or point: 	     |
+	|      							     |
+	| 		Numpad: 3 (Directional)			     |
+	| 		Numpad: 6 (Point)			     | 
+	|      							     |
+	| ========================================================== 
+	   
+		   (INCREASE WINDOW SIZE TO SEE CONTROLS) 
+

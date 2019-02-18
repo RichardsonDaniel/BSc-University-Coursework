@@ -1,0 +1,157 @@
+
+/* this make sure that all input fields have the same layout with their <input> */
+input{
+    padding: 0px;
+    margin: 0px;
+    width: 100px;
+    height: 30px;
+}
+/* this make sure that all button are created the same, layout with their <button> */
+button{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 50px;
+    background-color: #d8b839;
+}
+
+a:link {color:#d8b839;}      /* unvisited link */
+a:visited {color:#d8b839;}  /* visited link */
+a:hover {color:#FF00FF;}  /* mouse over link */
+a:active {color:#aacc44;}
+
+/* this make sure that all tables that are created have the same layout with their <table> */
+table{
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 5px;
+}
+/* this make sure that all tables rows that are created have the same layout with their <tr> */
+tr{
+    padding: 0px;
+    margin: 0px;
+}
+/* this make sure that all tables divisions that are created have the same layout with their <td>*/
+td{
+    padding: 0px;
+    margin: 0px;
+}
+/* by changing the settings of the header 3 tag we can make the <h3> on the screen be the same throughout */
+h3{
+    font-family: sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+/* by changing the settings of the header 4 tag we can make the <h4> on the screen be the same throughout */
+h4{
+    font-family: sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+/* by changing the settings of the paragraph tag we can make the <p> on the screen be the same throughout */
+p{
+    font-family: sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+#headerTable{
+    background-color: black;
+}
+#heading{
+    text-align: center;
+    color: #d8b839;
+}
+#subheading{
+    text-align: center;
+    color: #d8b839;
+}
+#logo{
+    width:100%;
+    height: 200px;
+}
+#websiteLogo{
+   width: 33%;
+    height: 40px;
+}
+/* this modifies the look and size of the review images that are located through table.php */
+#reviewImage{
+    height:250px;
+    width:100%;
+}
+/* this modifies the look and size of the rating images that are located through table.php */
+#rating{
+    height:25px;
+    width: 100px;
+}
+/*this modifies the look and size of the pegi age rating images that are located through table.php */
+#pegi{
+    width: 25px;
+    height: 25px;
+}
+/* this modifies the look of the table with id="buttonsTable" on the index.html and index2.php */
+#buttonsTable{
+    width: 100%;
+
+}
+/* this modifies the look of the table division's with id="buttonTable" on the index.html and index2.php */
+#buttonsTable td {
+    width: 8.3%;
+}
+/* this modifies the look of the table with id="headerTable" on the index.html and index2.php */
+#headerTable{
+    width: 100%;
+}
+/* this modifies the look of the table with id="searchTable" on the index.html and index2.php */
+#searchTable{
+    border: 0px;
+    width: 33%;
+    float: left;
+}
+#reviewList{
+    width: 67%;
+    float: right;
+}
+/* this modifies the look of the table with id="reviewList" on the index.html and index2.php */
+#reviewDiv{
+    border: 0px;
+    width: 100%;
+}
+#home{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 50px;
+}
+/* this is the settings for the advertising space on the index.html and index2.php pages*/
+#adverts1{
+    border: 1px;
+    height: 200px;
+    width: 100%;
+    background-color: lightgray;
+}
+
+/* this is the settings for the advertising space on the index.html and index2.php pages*/
+#adverts2{
+    border: 1px;
+    height: 200px;
+    width: 100%;
+    background-color: lightgray;
+}
+
+/* this is the settings for the footer table space on the index.html and index2.php pages*/
+#footerTable{
+    border: 0px;
+    height: 30px;
+    width: 100%;
+    background-color: black;
+}
+/* this is the settings for the footer space on the index.html and index2.php pages*/
+#footer{
+    border: 0px;
+    height: 30px;
+    width: 100%;
+    background-color: lightgray;
+}
+#footerTable td{
+    border: 0px;
+}

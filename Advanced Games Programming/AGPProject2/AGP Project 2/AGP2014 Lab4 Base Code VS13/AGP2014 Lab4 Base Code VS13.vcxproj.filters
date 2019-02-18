@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\Images">
+      <UniqueIdentifier>{3a2f86e8-05d0-454d-9e41-1bbb475b1805}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shaders">
+      <UniqueIdentifier>{84a7e919-7301-4d4d-9b79-82ce041e62bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\RT3D">
+      <UniqueIdentifier>{0abf0739-9dce-44fa-ba21-ddaf13f1b3ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game">
+      <UniqueIdentifier>{84966be1-1552-471d-b15c-f6e3c026d54d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Light">
+      <UniqueIdentifier>{e990da7a-ecf9-4a8a-b719-89ed391f6472}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Particles">
+      <UniqueIdentifier>{faefaf79-6e0b-4a2c-9ef2-7bbfe8eabe0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Renderers">
+      <UniqueIdentifier>{9991ad30-7424-4a15-8465-40312adc57ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game">
+      <UniqueIdentifier>{c7c2413b-dfd1-4fc3-ae31-498a67fc7c24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Light">
+      <UniqueIdentifier>{90c188b4-d3fc-4edd-9b04-c14a1cef0d43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Particle">
+      <UniqueIdentifier>{9ca4e0ef-9b81-41c3-90db-5fb5a70883ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Renderers">
+      <UniqueIdentifier>{09d87fc5-17fc-4626-bfed-b5ca5857cba9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="controls.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Crate.bmp">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="floor.bmp">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="smoke.bmp">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="box.bmp">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="fabric.bmp">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="hobgoblin2.bmp">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="leaf.bmp">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="plasma.bmp">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="studdedmetal.bmp">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="prop.bmp">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+    <Image Include="scene.bmp">
+      <Filter>Resource Files\Images</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="rt3d.h">
+      <Filter>Resource Files\RT3D</Filter>
+    </ClInclude>
+    <ClInclude Include="rt3dObjLoader.h">
+      <Filter>Resource Files\RT3D</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Header Files\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>Header Files\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScreen.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Load.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticlesList.h">
+      <Filter>Header Files\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Header Files\Renderers</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaders.h">
+      <Filter>Header Files\Renderers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shadow.frag">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="shadow.vert">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="depth.frag">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="depth.vert">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="multiplelight.frag">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="multiplelight.vert">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="particles.frag">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="particles.vert">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="phong-tex.frag">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+    <None Include="phong-tex.vert">
+      <Filter>Resource Files\Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rt3dObjLoader.cpp">
+      <Filter>Resource Files\RT3D</Filter>
+    </ClCompile>
+    <ClCompile Include="rt3d.cpp">
+      <Filter>Resource Files\RT3D</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScreen.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Source Files\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="Load.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>Source Files\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticlesList.cpp">
+      <Filter>Source Files\Particles</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Source Files\Renderers</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaders.cpp">
+      <Filter>Source Files\Renderers</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

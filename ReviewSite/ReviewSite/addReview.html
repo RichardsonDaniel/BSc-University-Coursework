@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body bgcolor="#BBBBBB">
+
+<form action="index.html">
+<input type="submit" value="Exit">
+</form>
+<!-- this form is designed to take all the webmasters game review information, once the information is entered-->
+<!-- the webmaster can post the review to the mysql database table using the php page in the action section of-->
+<!-- the form assigned at the start of the form-->
+<form align="center" action="php/addReview.php" method="post">
+
+    <h1>Game Review</h1>
+    <!-- Title of game under review -->
+    <b>Game Name:</b> <input align="left" type="text" name="name">
+    <br />
+    <br />
+
+    <!-- Game image location-->
+    <b>Image location:</b> <input type="text" name="imageLoc">
+
+    <h2>Details:</h2>
+
+    <!--Game Developer-->
+    <b>Developer:</b> <input type="text" name="developer">
+
+    <!-- Game Publisher-->
+    <b>Publisher:</b> <input type="text" name="publisher">
+
+
+    <!-- Game Genre-->
+    <b>Genre:</b> <select name="genre">
+    <option value="">Select</option>
+    <option value="Action">Action</option>
+    <option value="Adventure">Adventure</option>
+    <option value="First Person Shooter">First Person Shooter</option>
+    <option value="Nonlinear">Nonlinear</option>
+    <option value="Party">Party</option>
+    <option value="Platform">Platform</option>
+    <option value="Puzzle">Puzzle</option>
+    <option value="Real Time Strategy">Real Time Strategy</option>
+    <option value="Role Playing Game">Role Playing Game</option>
+    <option value="Side Scroller">Side Scroller</option>
+    <option value="Simulation">Simulation</option>
+    <option value="Strategy">Strategy</option>
+    <option value="Survival Horror">Survival Horror</option>
+</select>
+    <br />
+    <br />
+
+    <!-- Platform game is available on -->
+    <b>Platforms available on:</b>
+    <br />
+    <input type="checkbox" name="pS3" value="PS3">PS3
+    <input type="checkbox" name="pS4" value="PS4">PS4<br/>
+    <input type="checkbox" name="wii" value="Wii">Wii
+    <input type="checkbox" name="wiiU" value="Wii U">Wii U<br/>
+
+    <input type="checkbox" name="xBox360" value="XBox 360">XBox 360
+    <input type="checkbox" name="xBoxOne" value="XBox One">XBox One<br/>
+    <input type="checkbox" name="pSVita" value="PS Vita">PS Vita
+
+    <input type="checkbox" name="3DS" value="3DS">3DS<br/>
+    <input type="checkbox" name="pc" value="PC">PC
+    <input type="checkbox" name="mac" value="Mac">Mac
+    <input type="checkbox" name="tablets" value="Tablets">Tablets<br/>
+
+    <br/>
+
+    <!-- Age rating of the game -->
+    <b>Age:</b>
+    <select name="age">
+        <option value="3">3</option>
+        <option value="7">7</option>
+        <option value="12">12</option>
+        <option value="16">16</option>
+        <option value="18">18</option>
+    </select>
+    <br />
+    <br />
+
+    <!-- Type of play -->
+    <b>Online Play:</b>
+    <input type="radio" name="typeOP" value="Both">Both
+    <input type="radio" name="typeOP" value="Online Only">Online Only
+    <input type="radio" name="typeOP" value="Offline Only">Offline Only
+    <br />
+    <br />
+
+    <!--Co-operation availability-->
+    <b>Co-operative:</b>
+    <input type="radio" name="coOp" value="Yes">Yes
+    <input type="radio" name="coOp" value="No">No
+    <br />
+    <br />
+
+    <!--Game formats available-->
+    <b>Format:</b> <br/>
+    <input type="checkbox" name="formatHC" value="Hard Copy">Hard Copy<br/>
+    <input type="checkbox" name="formatD" value="Download">Download<br/>
+    <input type="checkbox" name="formatWA" value="Web-App">Web-App<br/>
+
+    <h2>Review:</h2>
+
+    <!-- Platform game reviewed on -->
+    <b>Reviewed on:</b>
+    <br />
+    <input type="radio" name="platform" value="PS3">PS3
+    <input type="radio" name="platform" value="PS4">PS4<br/>
+    <input type="radio" name="platform" value="Wii">Wii
+    <input type="radio" name="platform" value="Wii U">Wii U<br/>
+
+    <input type="radio" name="platform" value="XBox 360">XBox 360
+    <input type="radio" name="platform" value="XBox One">XBox One<br/>
+    <input type="radio" name="platform" value="PS Vita">PS Vita
+
+    <input type="radio" name="platform" value="ThreeDS">3DS<br/>
+    <input type="radio" name="platform" value="PC">PC
+    <input type="radio" name="platform" value="Mac">Mac
+    <input type="radio" name="platform" value="Tablets">Tablets<br/>
+
+    <br/>
+    <!-- Single player review-->
+    <b>Single Player:</b>
+    <br/>
+    <textarea type="text" rows="4" cols="50" name="singleDescrip"></textarea>
+    <br/>
+    <br/>
+    <!-- Muiltiplayer Review -->
+    <b>MultiPlayer:</b>
+    <br/>
+    <textarea type="text" rows="4" cols="50" name="multiDescrip"></textarea>
+    <br/>
+    <br/>
+    <!-- Our rating of the game -->
+    <b>Rating:</b>
+    <select name="rating">
+      <option value="0">0</option>
+      <option value="1">1</option>
+      <option value="2">2</option>
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="5">5</option>
+    </select>
+
+
+    <br/>
+    <br/>
+    <input type="submit">
+
+</form>
+</body>
+</html>

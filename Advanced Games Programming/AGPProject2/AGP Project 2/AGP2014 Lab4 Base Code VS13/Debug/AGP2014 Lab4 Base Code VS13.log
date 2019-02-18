@@ -1,0 +1,8 @@
+﻿Build started 27/04/2015 15:47:13.
+     1>Project "C:\Users\Daniel\CGT\University Final Works\CGT Year 3\Trimester 1\Advanced games programming\Finished\B00239486 - Daniel Richardson - Project 2\Demo\AGP Project 2\AGP2014 Lab4 Base Code VS13\AGP2014 Lab4 Base Code VS13.vcxproj" on node 2 (Build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(308,5): error MSB3491: Could not write lines to file "Debug\AGP2014 .774A56E0.tlog\AGP2014 Lab4 Base Code VS13.lastbuildstate". The specified path, file name, or both are too long. The fully qualified file name must be less than 260 characters, and the directory name must be less than 248 characters.
+     1>Done Building Project "C:\Users\Daniel\CGT\University Final Works\CGT Year 3\Trimester 1\Advanced games programming\Finished\B00239486 - Daniel Richardson - Project 2\Demo\AGP Project 2\AGP2014 Lab4 Base Code VS13\AGP2014 Lab4 Base Code VS13.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.01

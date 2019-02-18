@@ -1,0 +1,79 @@
+   
+	| ======================== Controls ======================== |
+	| Camera Control: 					     |
+	|   							     |
+	| 		W - A - S - D (directional) 		     |
+	| 		Q-E (elevation)  			     |
+	| 		comma-period (orientation). 		     |
+	|   							     |
+	| Select Light: 					     |
+	|   							     |
+	| 		Num 1 (sun, shadow caster)		     |
+	| 		Num 2-7 (Arranged lights)		     |
+	| 		Num 8 (Particle light)		 	     |
+	|   							     |
+	| Move selected light: 					     |
+	|      							     |
+	| 		I-J-K-L (directional)			     |
+	| 		U-O (elevation)				     |
+	|   							     |	
+	| Particle cube movements Controls: 			     |
+	|      							     |
+	| 		Numpad 8-4-5-6 (directional) 		     |
+	| 		Numpad 7-9 (elevation)  		     |
+	|      							     |
+	| Particle cube Controls: 				     |
+	|      						      	     |
+	|		Minus (on)    				     |
+	|		Equals (off)    			     |
+	|		T (Reset to white)    			     |
+	|		F (Change particles to red)    		     |
+	|		G (Change particles to green)   	     |
+	|		H (Change particles to blue)  	             |
+	|      							     |
+	| All/extra particle Controls: 				     |
+	|      						      	     |
+	|		Right arrow (Increase particle size)  	     |
+	|		Left arrow (Decrease particle size)          |
+	|		Numpad / (Turn on extra particles)  	     |
+	|		Numpad * (Turn off extra particles)          |
+	|      						      	     |
+	| All particle texture Controls: 			     |
+	|      						      	     |
+	|		F1 (Smoke)    				     |
+	|		F2 (smokecloud) 			     |
+	|		F3 (prop)  				     |
+	|		F4 (box)    				     |
+	|		F5 (leaf)  	  			     |
+	|		F6 (colourbox)  		 	     |
+	|		F7 (fabric)  			 	     |
+	|		F8 (goblin) 			             |
+	|		F9 (metal) 			             |
+	|      							     |
+	| Fog controls: 					     |
+	|      							     |
+	| 		Up arrow (Move fog back)		     |
+	| 		Down arrow (Move for forward) 		     |
+	| 		Numpad 0 (reset to white)		     |
+	| 		Numpad + (simple rainbow effect)	     |
+	| 		Numpad 1 (add red value)		     |
+	| 		Numpad 2 (add green green)		     |	
+	| 		Numpad 3 (add blue value)		     |
+	|      							     |	
+	| Attenuation for chosen light: 			     |
+	|      							     |
+	| 		C-V (Linear)		  		     | 
+	| 		Left/Right Bracket (Quadtratic)  	     |
+	|      							     |
+	| Extra light controls:   				     |	
+	|		(spotlights only)    			     |
+	|      						      	     |
+	|      		0-9 (turn on-off)			     |
+	| 		N-M (cone falloff, only when spotlight)      |
+	|      		Z-X (Set type)				     |
+	|      						      	     |
+	|      							     |
+	| ========================================================== |
+	   
+		   (INCREASE WINDOW SIZE TO SEE CONTROLS) 
+

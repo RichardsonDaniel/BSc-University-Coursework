@@ -1,0 +1,41 @@
+﻿Build started 02/04/2014 12:43:23.
+     1>Project "E:\ping\ping\ping.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\ping.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\dev\freeglut\include\GL /I"C:\dev\SDL-2.0.0\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\ping.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\dev\freeglut\include\GL /I"C:\dev\SDL-2.0.0\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\ping.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ping.cpp
+         ping.cpp
+     1>e:\ping\ping\ping.cpp(29): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>e:\ping\ping\ping.cpp(32): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>e:\ping\ping\ping.cpp(33): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+     1>e:\ping\ping\ping.cpp(65): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>e:\ping\ping\ping.cpp(65): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>e:\ping\ping\ping.cpp(66): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>e:\ping\ping\ping.cpp(66): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>e:\ping\ping\ping.cpp(68): warning C4244: 'argument' : conversion from 'float' to 'int', possible loss of data
+     1>e:\ping\ping\ping.cpp(68): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>e:\ping\ping\ping.cpp(68): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>e:\ping\ping\ping.cpp(70): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>e:\ping\ping\ping.cpp(70): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>e:\ping\ping\ping.cpp(131): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>e:\ping\ping\ping.cpp(132): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>e:\ping\ping\ping.cpp(139): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>e:\ping\ping\ping.cpp(140): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>e:\ping\ping\ping.cpp(162): warning C4305: '+=' : truncation from 'double' to 'float'
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\ping\Debug\ping.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\dev\freeglut\lib /LIBPATH:"C:\dev\SDL-2.0.0\lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\ping.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"E:\ping\Debug\ping.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\ping\Debug\ping.lib" /MACHINE:X86 Debug\ping.obj
+         Debug\stdafx.obj
+     1>ping.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+         ping.vcxproj -> E:\ping\Debug\ping.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"E:\ping\Debug\ping.exe;#1" /manifest Debug\ping.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\ping.unsuccessfulbuild".
+         Touching "Debug\ping.lastbuildstate".
+     1>Done Building Project "E:\ping\ping\ping.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.20

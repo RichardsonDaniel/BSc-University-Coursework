@@ -1,0 +1,23 @@
+﻿Build started 02/05/2014 12:57:20.
+     1>Project "C:\Users\DanielRichardson\Desktop\Racing Game\Racing Game\Racing Game.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\Racing Game.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:\dev\freeglut\include\GL /I"C:\dev\SDL-2.0.0\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\danielrichardson\desktop\racing game\racing game\main.cpp(246): warning C4715: 'tarTest' : not all control paths return a value
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\DanielRichardson\Desktop\Racing Game\Debug\Racing Game.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\dev /LIBPATH:C:\dev\freeglut\lib /LIBPATH:"C:\dev\SDL-2.0.0\lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\Racing Game.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\DanielRichardson\Desktop\Racing Game\Debug\Racing Game.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\DanielRichardson\Desktop\Racing Game\Debug\Racing Game.lib" /MACHINE:X86 Debug\Init.obj
+         Debug\main.obj
+     1>Init.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+         Racing Game.vcxproj -> C:\Users\DanielRichardson\Desktop\Racing Game\Debug\Racing Game.exe
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\DanielRichardson\Desktop\Racing Game\Debug\Racing Game.exe;#1" /manifest "Debug\Racing Game.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Debug\Racing Game.unsuccessfulbuild".
+         Touching "Debug\Racing Game.lastbuildstate".
+     1>Done Building Project "C:\Users\DanielRichardson\Desktop\Racing Game\Racing Game\Racing Game.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.47

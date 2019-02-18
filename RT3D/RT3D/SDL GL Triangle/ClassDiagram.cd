@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Camera">
+    <Position X="7.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAQAAQAAAAAAQAAQAQBAAAAAAAASgAAAAkCkAAA=</HashCode>
+      <FileName>Camera.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Character">
+    <Position X="4.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAASABDAAAAEAAAIAAYACAQBIQgIAAAERAEAEKQA=</HashCode>
+      <FileName>Character.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Environment">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACADAAAAAAAAIAAIACAQABAgAAEAABAAAAERA=</HashCode>
+      <FileName>Environment.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="rect">
+    <Position X="11.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAhAAAAAAIAgAAAAIAAAAAAAAgAAAgAA=</HashCode>
+      <FileName>rect.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SkyBox">
+    <Position X="9.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABSAAAAAggIIAAAAAQAAAAIABAAAAAAAQAA=</HashCode>
+      <FileName>SkyBox.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="md2model" Collapsed="true">
+    <Position X="11.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAgIQAAQgABAAAAAAAAAAAQEAABACQAAAAAAAQIgACU=</HashCode>
+      <FileName>md2model.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Screen">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAABAIAAAAAAAAAAAAEAAAAAAAEAAA=</HashCode>
+      <FileName>Screen.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScreenGame">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>NhBwDAAIAgAAAIgCggIAAQgAgAAIAAKAEACAAEAMAQQ=</HashCode>
+      <FileName>ScreenGame.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ScreenManager">
+    <Position X="2.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAIAAAAIAAAAAAAAgAAAAAAAoAAAEAAA=</HashCode>
+      <FileName>ScreenManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

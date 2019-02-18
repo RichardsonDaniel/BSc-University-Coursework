@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3e3ad87e-41c7-4e7f-9f82-21183c03b99a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{75cd4f99-a6dc-433b-a7ac-4f1805fa3a40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource Files">
+      <UniqueIdentifier>{91174453-6fb5-42f4-b750-6d73564d574d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource Files\Bitmaps">
+      <UniqueIdentifier>{74e878c9-226f-40a8-9d49-1426b0fa5465}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Uni Header Files">
+      <UniqueIdentifier>{576d5974-9aae-4093-803f-7fc716496db5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Uni Source Files">
+      <UniqueIdentifier>{e677905c-3a17-4f1a-8036-585c091974ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Screen Control">
+      <UniqueIdentifier>{d10c66fb-1b35-4316-8ca2-fbbcbed97cf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Screen Control">
+      <UniqueIdentifier>{acfdd329-95e3-4bf6-83b4-d4a7b8d5f63f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Character.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Environment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SkyBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="md2model.cpp">
+      <Filter>Source Files\Uni Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rect.cpp">
+      <Filter>Source Files\Uni Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rt3d.cpp">
+      <Filter>Source Files\Uni Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="rt3dObjLoader.cpp">
+      <Filter>Source Files\Uni Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenGame.cpp">
+      <Filter>Source Files\Screen Control</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenManager.cpp">
+      <Filter>Source Files\Screen Control</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Character.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Environment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SkyBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="anorms.h">
+      <Filter>Header Files\Uni Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="md2model.h">
+      <Filter>Header Files\Uni Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rect.h">
+      <Filter>Header Files\Uni Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rt3d.h">
+      <Filter>Header Files\Uni Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="rt3dObjLoader.h">
+      <Filter>Header Files\Uni Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen.h">
+      <Filter>Header Files\Screen Control</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenGame.h">
+      <Filter>Header Files\Screen Control</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenManager.h">
+      <Filter>Header Files\Screen Control</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="phong-tex.frag">
+      <Filter>resource Files</Filter>
+    </None>
+    <None Include="phong-tex.vert">
+      <Filter>resource Files</Filter>
+    </None>
+    <None Include="textured.frag">
+      <Filter>resource Files</Filter>
+    </None>
+    <None Include="textured.vert">
+      <Filter>resource Files</Filter>
+    </None>
+    <None Include="ClassDiagram.cd" />
+    <None Include="Resources\black.bmp">
+      <Filter>resource Files\Bitmaps</Filter>
+    </None>
+    <None Include="Resources\building1.bmp">
+      <Filter>resource Files\Bitmaps</Filter>
+    </None>
+    <None Include="Resources\building2.bmp">
+      <Filter>resource Files\Bitmaps</Filter>
+    </None>
+    <None Include="Resources\building3.bmp">
+      <Filter>resource Files\Bitmaps</Filter>
+    </None>
+    <None Include="Resources\building4.bmp">
+      <Filter>resource Files\Bitmaps</Filter>
+    </None>
+    <None Include="Resources\building5.bmp">
+      <Filter>resource Files\Bitmaps</Filter>
+    </None>
+    <None Include="Resources\building6.bmp">
+      <Filter>resource Files\Bitmaps</Filter>
+    </None>
+    <None Include="Resources\building7.bmp">
+      <Filter>resource Files\Bitmaps</Filter>
+    </None>
+    <None Include="Resources\building8.bmp">
+      <Filter>resource Files\Bitmaps</Filter>
+    </None>
+    <None Include="Resources\fence.bmp">
+      <Filter>resource Files\Bitmaps</Filter>
+    </None>
+    <None Include="Resources\ground.bmp">
+      <Filter>resource Files\Bitmaps</Filter>
+    </None>
+    <None Include="Resources\hobgoblin.bmp">
+      <Filter>resource Files\Bitmaps</Filter>
+    </None>
+    <None Include="Resources\road.bmp">
+      <Filter>resource Files\Bitmaps</Filter>
+    </None>
+    <None Include="Resources\road2.bmp">
+      <Filter>resource Files\Bitmaps</Filter>
+    </None>
+    <None Include="Resources\roadconnector.bmp">
+      <Filter>resource Files\Bitmaps</Filter>
+    </None>
+    <None Include="Resources\SkyBoxBack.bmp">
+      <Filter>resource Files\Bitmaps</Filter>
+    </None>
+    <None Include="Resources\SkyBoxDown.bmp">
+      <Filter>resource Files\Bitmaps</Filter>
+    </None>
+    <None Include="Resources\SkyBoxFront.bmp">
+      <Filter>resource Files\Bitmaps</Filter>
+    </None>
+    <None Include="Resources\SkyBoxLeft.bmp">
+      <Filter>resource Files\Bitmaps</Filter>
+    </None>
+    <None Include="Resources\SkyBoxRight.bmp">
+      <Filter>resource Files\Bitmaps</Filter>
+    </None>
+    <None Include="Resources\SkyBoxUp.bmp">
+      <Filter>resource Files\Bitmaps</Filter>
+    </None>
+    <None Include="Resources\wall.bmp">
+      <Filter>resource Files\Bitmaps</Filter>
+    </None>
+    <None Include="Resources\yoshi.bmp">
+      <Filter>resource Files\Bitmaps</Filter>
+    </None>
+    <None Include="Resources\hobgoblin.MD2">
+      <Filter>resource Files</Filter>
+    </None>
+    <None Include="Resources\yoshi.md2">
+      <Filter>resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

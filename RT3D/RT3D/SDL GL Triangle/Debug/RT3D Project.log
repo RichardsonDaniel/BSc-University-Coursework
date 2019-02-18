@@ -1,0 +1,58 @@
+﻿Build started 28/04/2014 01:07:35.
+     1>Project "C:\Users\DanielRichardson\Desktop\RT3D Project\RT3D Project\RT3D Project.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\RT3D Project.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Camera.cpp Character.cpp Environment.cpp ScreenGame.cpp ScreenManager.cpp main.cpp rect.cpp
+         rect.cpp
+         ScreenManager.cpp
+     1>c:\users\danielrichardson\desktop\rt3d project\rt3d project\md2model.h(42): warning C4005: 'WIN32' : macro redefinition
+                 command-line arguments :  see previous definition of 'WIN32'
+         ScreenGame.cpp
+     1>c:\users\danielrichardson\desktop\rt3d project\rt3d project\md2model.h(42): warning C4005: 'WIN32' : macro redefinition
+                 command-line arguments :  see previous definition of 'WIN32'
+         Environment.cpp
+         Character.cpp
+     1>c:\users\danielrichardson\desktop\rt3d project\rt3d project\md2model.h(42): warning C4005: 'WIN32' : macro redefinition
+                 command-line arguments :  see previous definition of 'WIN32'
+     1>c:\users\danielrichardson\desktop\rt3d project\rt3d project\character.cpp(50): warning C4305: '=' : truncation from 'double' to 'GLfloat'
+     1>c:\users\danielrichardson\desktop\rt3d project\rt3d project\character.cpp(59): warning C4305: '=' : truncation from 'double' to 'GLfloat'
+     1>c:\users\danielrichardson\desktop\rt3d project\rt3d project\character.cpp(70): warning C4305: '=' : truncation from 'double' to 'GLfloat'
+     1>c:\users\danielrichardson\desktop\rt3d project\rt3d project\character.cpp(87): warning C4305: 'argument' : truncation from 'double' to 'float'
+         Camera.cpp
+     1>c:\users\danielrichardson\desktop\rt3d project\rt3d project\md2model.h(42): warning C4005: 'WIN32' : macro redefinition
+                 command-line arguments :  see previous definition of 'WIN32'
+     1>c:\users\danielrichardson\desktop\rt3d project\rt3d project\camera.cpp(22): warning C4305: '+=' : truncation from 'double' to 'GLfloat'
+     1>c:\users\danielrichardson\desktop\rt3d project\rt3d project\camera.cpp(23): warning C4305: '-=' : truncation from 'double' to 'GLfloat'
+         Generating Code...
+         Compiling...
+         main.cpp
+     1>c:\users\danielrichardson\desktop\rt3d project\rt3d project\md2model.h(42): warning C4005: 'WIN32' : macro redefinition
+                 command-line arguments :  see previous definition of 'WIN32'
+         Generating Code...
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\DanielRichardson\Desktop\RT3D Project\Debug\RT3D Project.exe" /INCREMENTAL:NO /NOLOGO opengl32.lib glew32.lib SDL.lib SDLmain.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\RT3D Project.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\DanielRichardson\Desktop\RT3D Project\Debug\RT3D Project.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\DanielRichardson\Desktop\RT3D Project\Debug\RT3D Project.lib" /MACHINE:X86 Debug\Camera.obj
+         Debug\Character.obj
+         Debug\Environment.obj
+         Debug\main.obj
+         Debug\md2model.obj
+         Debug\rect.obj
+         Debug\rt3d.obj
+         Debug\rt3dObjLoader.obj
+         Debug\ScreenGame.obj
+         Debug\ScreenManager.obj
+         Debug\SkyBox.obj
+     1>Camera.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+     1>MSVCRTD.lib(cinitexe.obj) : warning LNK4098: defaultlib 'msvcrt.lib' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>SDLmain.lib(SDL_windows_main.obj) : warning LNK4099: PDB 'vc100.pdb' was not found with 'SDLmain.lib(SDL_windows_main.obj)' or at 'C:\Users\DanielRichardson\Desktop\RT3D Project\Debug\vc100.pdb'; linking object as if no debug info
+         RT3D Project.vcxproj -> C:\Users\DanielRichardson\Desktop\RT3D Project\Debug\RT3D Project.exe
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\DanielRichardson\Desktop\RT3D Project\Debug\RT3D Project.exe;#1" /manifest "Debug\RT3D Project.exe.intermediate.manifest"
+       FinalizeBuildStatus:
+         Deleting file "Debug\RT3D Project.unsuccessfulbuild".
+         Touching "Debug\RT3D Project.lastbuildstate".
+     1>Done Building Project "C:\Users\DanielRichardson\Desktop\RT3D Project\RT3D Project\RT3D Project.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.25
