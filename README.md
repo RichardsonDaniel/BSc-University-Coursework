@@ -13,6 +13,10 @@
 <details><summary>Advanced Games Programming.</summary>
 <p>
  
+<p align="center">
+<img src="http://richardsondaniel.co.uk/wp-content/uploads/2015/05/AGP2.png"/>
+</p>
+ 
 # Advanced Games Programming
 
 The Advanced Games Programming module taught advanced programming concepts in C++, graphics, networking and multi-threading. It was entirely assessed through practical coursework and gave students freedom to explore advanced topics that intrigued them. 
@@ -44,7 +48,11 @@ The assignment was to take a basic binary tree implementation and extend it to b
 
 <details><summary>EggDrop.</summary>
 <p>
- 
+
+<p align="center">
+<img src="http://richardsondaniel.co.uk/wp-content/uploads/2015/05/Screen-Shot-2015-05-30-at-14.39.43.png"/>
+</p>
+
 # Mobile Games Development
 
 The mobile games development module was a crash course in web technologies to those with a more traditional programming background. Students were expected to write a 2D or 3D game using a popular JavaScript framework to showcase their understanding of basic web technologies. While the game that had to be developed did not need to be overly complex students had to meet a set of goals for their submission to be considered valid. It was a fun module that I really enjoyed. 
@@ -84,6 +92,10 @@ The assignment was to develop a prototype game that showed off good use of moder
 
 <details><summary>LunarLander.</summary>
 <p>
+ 
+  <p align="center">
+<img src="http://richardsondaniel.co.uk/wp-content/uploads/2015/05/screenshot1.jpg"/>
+</p>
  
 # LunarLander
 
@@ -144,6 +156,10 @@ The Computing Project was a module designed to allow students to work in teams t
 <details><summary>Teshi's Escape.</summary>
 <p>
  
+ <p align="center">
+<img src="http://richardsondaniel.co.uk/wp-content/uploads/2015/05/Screen-Shot-2012-12-09-at-04.01.12.png.png"/>
+</p>
+ 
 # Teshi's Escape
 
 The following module was to create any game in which we wished this could be something original or an emulation of some past game you may have the played, the objective was to create this game and then make a very brief design document with some additional level onto of the one level you will developing then to pitch your game to a set of producers (lecturers) and create a mockup of your game with game cover, disc art and a poster to go along with it
@@ -152,6 +168,10 @@ The following module was to create any game in which we wished this could be som
 
 <details><summary>Wheels3D.</summary>
 <p>
+ 
+ <p align="center">
+<img src="http://richardsondaniel.co.uk/wp-content/uploads/2015/05/wheel.png"/>
+</p>
  
 # Wheels3D
 
@@ -165,6 +185,10 @@ The assignment was rather simple. In the first trimester students were to write 
 
 <details><summary>applications.</summary>
 <p>
+ 
+   <p align="center">
+<img src="http://richardsondaniel.co.uk/wp-content/uploads/2015/05/Screen-Shot-2012-12-02-at-00.59.53.png"/>
+</p>
 
 # Java Applications
 
@@ -174,6 +198,10 @@ For this module we were shown how to do some basic level Java programming, for t
 
 <details><summary>countdown.</summary>
 <p>
+ 
+   <p align="center">
+<img src="http://richardsondaniel.co.uk/wp-content/uploads/2015/05/Screen-Shot-2012-12-02-at-00.59.53.png"/>
+</p>
 
 # Java Applications
 
