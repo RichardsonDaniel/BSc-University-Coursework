@@ -210,4 +210,4 @@ For this module we were shown how to do some basic level Java programming, for t
 </details>
 
 ## License:
- [GNU Affero General Public License v3.0](https://www.gnu.org/licenses/agpl-3.0.en.html) © [Daniel Richardson](github.com/RichardsonDaniel)
+MIT © [Daniel Richardson](github.com/RichardsonDaniel)
